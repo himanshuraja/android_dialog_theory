@@ -1,0 +1,16 @@
+A) What is dialog ?
+
+Ans.A dialog is the message that can be showed in the small screen in android that pops up when user do some activity.
+A dialog is not meant to be fitted on the entire screen or we can say if has whole screen as parent then it is not applicable
+to use width and height with match parent.
+
+
+B) How to create custom dialog ?
+
+Ans. For creating a custom dialog we first have to create the xml file for defining he design pattern for the dialog and after setting the design pattern we have to use the activity class and extends it with dialog and imlements an onclickistenr on the button that we have just defined in the xml file.
+
+
+C) How to use existing dialog?
+
+Ans. We can use the existing dialog with dialog fragments,and can use oncreate view or oncreate dialog methods to create them and to use their 
+hierarchy.
